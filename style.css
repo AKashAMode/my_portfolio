@@ -14,7 +14,7 @@
     padding-right: 20px;
    align-content: center;
    height: 60px;
-   background-color: #1E2A5E;
+   background-color: #000;
    align-items: center;
 }
 
@@ -40,7 +40,8 @@
 
 .main-section{
     height: 90vh;
-    background-color: aliceblue;
+    background-color: #00001a;
+    color: #fff;
 }
 
 
@@ -66,9 +67,11 @@
 .akash-amode-img{
     height: 400px;
     width: 400px;
-    border: 3px solid #000;
+    border: 3px solid #fff;
     border-radius: 200px;
 }
+
+
 
 .work{
     padding-top: 5px;
@@ -104,9 +107,10 @@
 
 .social-media-icon{
     height: 40px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 5px;
     border-radius: 5px;
+    background-color: #fff;
 
 }
 
@@ -118,10 +122,47 @@
 
 .skill-section-heading{
     text-align: center;
-    padding: 10px 0px;
+    padding: 30px 0px;
+    color: #fff;
 }
 
 .skill-set{
     height: 100px;
     margin: 10px;
+}
+
+.skill-contain{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-heading{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.skill-section{
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+}
+
+.skill-box{
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+
+/* project section........................... */
+
+
+
+
+.project-heading{
+
+   text-align: center;
+   padding: 30px 0px;
+   
 }
