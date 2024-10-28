@@ -11,17 +11,17 @@
 </head>
 <body>
     <header>
-        <div class="navbar-header">
+        <div class="navbar-header" id="navbar-header">
 
         <div class="nav-bar">
             <div class="home-logo-container">
-                <a href="#" class="home-logo">Home</a>
+                <a href="#navbar-header" class="home-logo">Home</a>
             </div>
 
             <div class="home-sub">
-                <a href="#" class="nav-anchors">Projects</a>
-                <a href="#" class="nav-anchors">Education</a>
-                <a href="#" class="nav-anchors">About</a>
+                <a href="#skill-section" class="nav-anchors">Skills</a>
+                <a href="#project-section" class="nav-anchors">Projects</a>
+                <a href="#contact-section" class="nav-anchors nav-anchor-style">Contact</a>
             </div>
 
         </div>
@@ -35,20 +35,20 @@
 
         <div class="about-me-section">
 
-          <h1 class="greed">Hello, I AM</h1>
-          <h1 class="my-name">AKASH AMODE</h1>
+          <h1 class="greed font-style">Hello, I AM</h1>
+          <h1 class="my-name font-style">AKASH AMODE</h1>
           <h3 class="work">Web developer</h3>
 
-          <p class="about-me">IT graduate with hands-on experience in HTML, CSS, JavaScript, and Bootstrap. Built an E-Learning website project and skilled in creating responsive designs. Quick learner, passionate about coding, and eager to contribute and grow in a dynamic team environment.</p>
+          <p class="about-me">IT graduate with hands-on experience in HTML, CSS, JavaScript. Built an E-Learning website project and skilled in creating responsive designs. Quick learner, passionate about coding, and eager to contribute and grow in a dynamic team environment.</p>
 
-          <button class="about-me-btn">About me</button>
+          <button class="about-me-btn">Resume</button>
 
           <div class="social-media">
              
-          <a href="#" class="social-media-account"><img src="./images/twitter.png" class="social-media-icon" alt="Twitter"></a>
+          <a href="https://x.com/akashamode80" class="social-media-account"><img src="./images/twitter.png" class="social-media-icon" alt="Twitter"></a>
           <a href="#" class="social-media-account"><img src="./images/linkedin.png" class="social-media-icon" alt="Linkedin"></a>
-          <a href="#" class="social-media-account"><img src="./images/github-sign.png" class="social-media-icon" alt="github"></a>
-          <a href="#" class="social-media-account"><img src="./images/instagram.png" class="social-media-icon" alt="Instagram"></a>
+          <a href="https://github.com/AKashAMode" class="social-media-account"><img src="./images/github-sign.png" class="social-media-icon" alt="github"></a>
+          
 
           </div>
         </div>
@@ -65,8 +65,8 @@
 
     </section>
       
-    <section class="skill-section">
-        <h2 class="skill-section-heading">SKILL SECTION</h2>
+    <section class="skill-section" id="skill-section">
+        <h2 class="skill-section-heading">MY SKILLS</h2>
 
         <div class="my-skills">
 
@@ -117,24 +117,24 @@
     <!-- project section .....................-->
 
 
-    <section class="project-section">
+    <section class="project-section" id="project-section">
         
       <div class="project-main-heading">
-        <h2 class="project-heading">PROJECT SECTION</h2>
+        <h2 class="project-heading">PROJECTS</h2>
       </div>
 
       <div class="project-container">
 
         <div class="project-card">
             <div class="project-image">
-                <img src="./images/ecommerce-project-banner.avif" alt="Project Image">
+                <img src="./images/bulb-project.png" class="product-image" alt="Project Image">
             </div>
             <div class="project-content">
-                <h3 class="project-name">E-Commerce WebSite</h3>
-                <p>Short description of the project goes here. Highlight the main features and technologies used.</p>
+                <h3 class="project-name">Bulb Toggler</h3>
+                <p>The Bulb Toggler project is a simple web app that lets users turn a light bulb on and off by clicking a button.</p>
                 <div class="btn-container">
-                    <a href="your-live-code-link" class="code-btn">Live Code</a>
-                    <a href="your-source-code-link" class="code-btn">Source Code</a>
+                    <a href="https://frolicking-cassata-01db51.netlify.app/" class="code-btn">Live Code</a>
+                    <a href="https://github.com/AKashAMode/color-change-event" class="code-btn">Source Code</a>
                 </div>
             </div>
         </div>
@@ -184,21 +184,6 @@
             </div>
         </div>
 
-
-
-        <div class="project-card">
-            <div class="project-image">
-                <img src="./images/ecommerce-project-banner.avif" alt="Project Image">
-            </div>
-            <div class="project-content">
-                <h3 class="project-name">E-Commerce WebSite</h3>
-                <p>Short description of the project goes here. Highlight the main features and technologies used.</p>
-                <div class="btn-container">
-                    <a href="your-live-code-link" class="code-btn">Live Code</a>
-                    <a href="your-source-code-link" class="code-btn">Source Code</a>
-                </div>
-            </div>
-        </div>
         
 
       </div>
@@ -211,9 +196,9 @@
 
     <!-- contact section --------------------------------------------------------->
       
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2>Contact</h2>
             <form class="contact-form">
                 <div class="form-group">
                     <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
@@ -239,7 +224,7 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-about">
-            <h3>Your Name</h3>
+            <h3>Akash Amode</h3>
             <p>Web Developer | Designer | Programmer</p>
         </div>
         <div class="footer-links">
@@ -247,7 +232,6 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -265,7 +249,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Akash Amode. All Rights Reserved.</p>
     </div>
 </footer>
 

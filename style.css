@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,34 +19,42 @@ body {
     padding-right: 20px;
    align-content: center;
    height: 60px;
-   background-color: #000;
+   background-color: rgba(122, 116, 116, 0.5);
    align-items: center;
 }
 
 .home-logo{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     color: #222831;
     font-weight: bold;
     padding: 2px;
-    color: #fff;
+    color: #000;
 }
 
 
 .nav-anchors{
-    margin-left: 70px;
+    margin-left: 6rem;
+    margin-right: 10px;
     text-decoration: none;
     color: #222831;
-    font-size: 17px; 
+    font-size: 20px; 
     font-weight: 500;
-    color: #fff;
+    font-weight: 600;
     
+}
+
+.nav-anchor-style{
+    border: none;
+    background-color: #33adff;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #ffff;
 }
 
 .main-section{
     height: 90vh;
-    background-color: #00001a;
-    color: #fff;
+  background-color: #d9d9d9;
 }
 
 
@@ -76,11 +85,13 @@ body {
 }
 
 
-
 .work{
-    padding-top: 5px;
+    font-size: 30px;
 }
 
+.font-style{
+    font-size: 40px;
+}
 
 
 .about-me{
@@ -95,26 +106,25 @@ body {
 
 .social-media-account{
    padding-right: 20px;
-
-
 }
 
 .about-me-btn{
-    padding: 6px;
+    padding: 12px;
     width: 120px;
     border: 2px solid #000;
     border-radius: 5px;
     color: #fff;
-    background-color: #F4A261;
+    background-color: #33adff;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .social-media-icon{
-    height: 40px;
-    border: 2px solid #fff;
+    height: 50px;
+    border: 2px solid #000000;
     padding: 5px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #ffffff;
 
 }
 
@@ -133,6 +143,7 @@ body {
 .skill-set{
     height: 100px;
     margin: 10px;
+
 }
 
 .skill-contain{
@@ -143,7 +154,7 @@ body {
 .skill-heading{
     display: flex;
     justify-content: space-evenly;
-    color: #fff;
+    color: #000;
 }
 
 .skill-section{
@@ -156,13 +167,13 @@ body {
     padding: 5px;
     border: 2px solid #fff;
     border-radius: 10px;
+    background-color: #fff;
     
 }
 
 /* project section........................... */
 
 .project-section{
-    /* background-color: #00001a; */
     background-color: #e7e6e1;
 }
 
@@ -201,6 +212,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    height: 200px;
 }
 
 .project-content {
@@ -345,7 +357,7 @@ body {
 /* footer section css *****************************************/
 
 .footer {
-    background-color: #000;
+    background-color: #001433;
     color: #ffffff;
     padding: 40px 20px;
     text-align: center;
