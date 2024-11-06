@@ -1,3 +1,3 @@
 function openPDF(){
-    window.open('./images/AKashamode-resume.docx','_blank');
+    window.open('./images/newResumeAkashamode.pdf','_blank');
 }
