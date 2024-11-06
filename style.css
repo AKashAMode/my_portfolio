@@ -276,12 +276,13 @@ body {
 
 
 .portfolio-card {
-    display: flex; /* Changed to flex for horizontal layout */
+    display: flex; 
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 600px; /* Increased width for horizontal layout */
+    max-width: 80%;
+    height: 350px; 
     margin: 15px;
     transition: transform 0.3s;
 }
@@ -291,13 +292,15 @@ body {
 }
 
 .project-image {
-    width: 40%; /* Adjusted width for the image */
+    width: 40%; 
     height: auto;
 }
 
 .project-info {
     padding: 15px;
-    width: 60%; /* Adjusted width for the text section */
+    width: 60%;
+    padding: 40px;
+  
 }
 
 .project-title {
@@ -318,8 +321,9 @@ body {
 }
 
 .button-container {
-    display: flex; /* Use flexbox for button layout */
-    gap: 10px; /* Spacing between buttons */
+    display: flex; 
+    gap: 40px; 
+    margin-top: 50px;
 }
 
 .button {
