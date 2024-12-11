@@ -1,1 +1,1 @@
-<h1>Personal PortFolio</h1>
+<h1>Personal Portfolio</h1>
